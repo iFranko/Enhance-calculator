@@ -4,4 +4,4 @@ It calculates the chance in percentage plus the number of failing attempts( also
 then it simulates an animation of upgrading the gear 
 and either it fails or success depending on the rolling dice total. 
 
-<img src="images/Main.png" width="500">
+<img src="images/Main.png" width="500">  <img src="images/game.png" width="500">
