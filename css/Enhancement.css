@@ -1,0 +1,252 @@
+/*  Name: Frank Kufer
+    Date: December 13th, 2020
+    Description: css file that styles the page of the html 
+ */
+@media screen and (max-width: 380px) {
+ 
+  p{
+    color: purple;
+    margin-top: 25%;
+}
+  #items {
+    font-size: small;
+    background-color: #222;
+    color: rgb(240, 171, 44);
+}
+ 
+  .large button {
+    font-size:small;
+
+}
+
+.large {
+    font-size: small;
+
+}
+
+  button {
+    background-color: purple;
+    margin-bottom: 20px;
+    box-sizing: 100%;
+    font-size: smaller;
+    border: 1px solid purple;
+    text-decoration: none;
+    border: solid 1px purple;
+    border-radius: 50px;
+}
+
+ 
+ 
+  #info p {
+    font-size: small;
+    color: purple;
+    background-color: black;
+
+}
+  a {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: solid 1px purple;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+  #logOut {
+    margin-top: 20px;
+    background-color: #11171b;
+    color: white;
+    text-decoration: none;
+    border: solid 1px #0172BA;
+    border-radius: 50px;
+    font-size: small;
+  }
+
+  .container {
+    grid-template-rows: auto;
+    display: grid;
+    grid-gap: 5px 20px;
+
+
+  }
+
+  #img {
+    background-image: url('../images/bdo2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #222;
+  }
+
+
+  #img2 {
+    background-image: url('../images/bdo4.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #222;
+  }
+
+  #img3 {
+    background-image: url('../images/bdo6.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #222;
+  }
+
+  input {
+
+    margin-bottom: 5px;
+    box-sizing: 100%;
+    font-size: small;
+    /* border: 1px solid blanchedalmond;
+text-decoration: none;
+order: solid 1px #0172BA;
+border-radius: 50px; */
+
+  }
+
+  h3 {
+    color: #0172BA;
+
+
+  }
+
+
+
+  .header {
+    text-align: center;
+    display: grid;
+    color: #ffffff;
+    border-bottom: 2px #f7fbfd solid;
+
+
+  }
+
+
+
+  .submit input {
+    background-color: #0172BA;
+    color: white;
+    text-decoration: none;
+    border: solid 1px #0172BA;
+    border-radius: 50px;
+    padding: 5px;
+  }
+}
+
+@media screen and (min-width: 380px) {
+  .container {
+    grid-template-columns: auto 35%;
+    display: grid;
+    grid-gap: 5px 20px;
+
+
+  }
+
+  div {
+    display: block;
+    margin-bottom: 20px;
+
+  }
+
+  input {
+
+    margin-bottom: 20px;
+    box-sizing: 100%;
+    font-size: xx-large;
+    /* border: 1px solid blanchedalmond;
+  text-decoration: none;
+	order: solid 1px #0172BA;
+	border-radius: 50px; */
+
+  }
+
+  #img {
+    background-image: url('../images/bdo2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #222;
+  }
+
+  #img2 {
+    background-image: url('../images/bdo4.png');
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #222;
+  }
+
+  #img3 {
+    background-image: url('../images/bdo6.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #222;
+  }
+
+  body {
+
+    font-size: large;
+    color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+
+  h3 {
+    color: #0172BA;
+
+
+  }
+
+  .header {
+    text-align: center;
+    display: grid;
+    color: #ffffff;
+    border-bottom: 2px #f7fbfd solid;
+
+
+  }
+
+  .MainHeader {
+    grid-template-columns: 25% auto 25%;
+    text-align: center;
+    display: grid;
+    color: rgb(240, 171, 44);
+    border-bottom: 2px #000507 solid;
+    background-color: #222;
+
+  }
+
+  .submit input {
+    background-color: #0172BA;
+    color: white;
+    text-decoration: none;
+    border: solid 1px #0172BA;
+    border-radius: 50px;
+    padding: 10px;
+  }
+
+  #register {
+    margin-left: 10%;
+  }
+}

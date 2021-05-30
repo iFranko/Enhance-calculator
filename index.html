@@ -1,0 +1,53 @@
+<!--Name: Frank Kufer 
+    Date: December 12th, 2020
+    Description: html file that has 2 form one for log in (email password) and second is for registration (name, age, email, and password)
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Enhancement Simulator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Enhancement.css">
+
+
+</head>
+
+<body id="img">
+
+    <div class="header">
+        <h1>Enhance Simulator</h1>
+    </div>
+    <div class="container">
+
+        <div>
+
+            <form id="register" action="Register.php" method="POST">
+                <h3>Rigister Here</h3>
+                <input type="text" name="userName" placeholder="Name" required> <br>
+                <input type="number" name="Age" min="0" max="140" placeholder="Age" required><br>
+                <input type="email" name="newEmail" placeholder="Email" required><br>
+                <input type="password" name="newPass" placeholder="Password" required><br>
+                <dive class="submit">
+                    <input type="submit" value="Sign up">
+                </dive>
+            </form>
+        </div>
+
+        <div>
+            <h3>Log In</h3>
+            <form id="login" action="LogIn.php" method="POST">
+                <input type="email" id="userEmail" name="userEmail" placeholder="Email" required><br>
+                <input type="password" id="userPass" name="userPass" placeholder="Password" required><br>
+                <div class="submit">
+                    <input type="submit" value="Log in">
+                </div>
+            </form>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
